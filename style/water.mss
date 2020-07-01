@@ -40,7 +40,7 @@
   [waterway = 'ditch'],
   [waterway = 'drain'] {
     [int_tunnel = 'no'] {
-      [int_intermittent != 'yes'][zoom >= 14],
+      [int_intermittent != 'yes'][zoom >= 13],
       [zoom >= 15] {
         line-width: 2.5;
         line-color: white;
