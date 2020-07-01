@@ -566,7 +566,7 @@ Layer:
           FROM
             (SELECT way,
               ('barrier_' || (CASE WHEN barrier IN ('chain', 'city_wall', 'ditch', 'fence', 'guard_rail',
-                    'handrail', 'hedge', 'retaining_wall', 'wall') THEN barrier END)) AS barrier,
+                    'handrail', 'hedge', 'retaining_wall', 'separator', 'wall') THEN barrier END)) AS barrier,
               ('historic_' || (CASE WHEN historic = 'citywalls' THEN historic END)) AS historic
               FROM
                 (SELECT
