@@ -852,6 +852,16 @@
     line-width: 0.4;
     line-color: #444;
   }
+  [feature = 'separator] [zoom >= 16] {
+    [zoom >= 16] {
+      line-width: 0.33;
+      line-color: #666666;
+    }
+    [zoom >= 17] {
+      line-width: 0.4;
+      line-color: #444;
+    }
+  }
   [feature = 'barrier_hedge'][zoom >= 16] {
     line-width: 1.5;
     line-color: @hedge;
