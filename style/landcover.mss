@@ -852,7 +852,7 @@
     line-width: 0.4;
     line-color: #444;
   }
-  [feature = 'separator] [zoom >= 16] {
+  [feature = 'separator'] [zoom >= 16] {
     [zoom >= 16] {
       line-width: 0.33;
       line-color: #666666;
