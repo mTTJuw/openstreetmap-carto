@@ -196,6 +196,11 @@
     marker-fill: #545454;
     marker-clip: false;
   }
+  
+  [feature = 'highway_stop'][zoom >= 17] {
+    marker-file: url('symbols/highway/stop_sign.svg');
+    marker-fill: #545454;
+    marker-clip: false;
 
   [feature = 'barrier_toll_booth'][zoom >= 16] {
     marker-file: url('symbols/barrier/toll_booth.svg');
