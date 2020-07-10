@@ -337,11 +337,16 @@
       [way_pixels >= 64] { polygon-gamma: 0.3;  }
     }
   }
+  
   [feature = 'crop_rice'] {
 	  [zoom >= 5] {
       polygon-fill: @farmland;
       [zoom >= 11] {
         polygon-fill: @farmland;
+        polygon-pattern-file: url('symbols/generating_patterns/wetland_generic@2x.png');
+        polygon-pattern-alignment: global;
+        [way_pixels >= 4]  { polygon-pattern-gamma: 0.75; }
+        [way_pixels >= 64] { polygon-pattern-gamma: 0.3;  }
         [way_pixels >= 4]  { polygon-gamma: 0.75; }
         [way_pixels >= 64] { polygon-gamma: 0.3;  }
 	    }  
