@@ -336,7 +336,7 @@
       [way_pixels >= 4]  { polygon-gamma: 0.75; }
       [way_pixels >= 64] { polygon-gamma: 0.3;  }
     }
-  
+  }
   [feature = 'crop_rice'] {
 	  [zoom >= 5] {
       polygon-fill: @farmland;
